@@ -58,6 +58,9 @@
   <ItemGroup>
     <Compile Include="Assets/Scripts/Mover.cs" />
     <Compile Include="Assets/Scripts/CameraFollow.cs" />
+    <Compile Include="Assets/Scripts/PlayerControl.cs" />
+    <Compile Include="Assets/Scripts/Fighter.cs" />
+    <Compile Include="Assets/Scripts/CombatTarget.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets/Asset Packs/Synty - Polygon Student Sample/README - Usage Rights for these assets.txt" />
