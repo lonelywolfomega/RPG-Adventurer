@@ -1,11 +1,11 @@
 ﻿<Properties StartupConfiguration="{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerControl.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ActionScheduler.cs">
     <Files>
-      <File FileName="Assets/Scripts/Mover.cs" Line="37" Column="2" />
+      <File FileName="Assets/Scripts/Mover.cs" Line="29" Column="63" />
       <File FileName="Assets/Scripts/CameraFollow.cs" Line="24" Column="2" />
-      <File FileName="Assets/Scripts/PlayerControl.cs" Line="18" Column="10" />
-      <File FileName="Assets/Scripts/NewMonoBehaviour.cs" Line="21" Column="47" />
-      <File FileName="Assets/Scripts/NewMonoBehaviour.cs" Line="19" Column="6" />
+      <File FileName="Assets/Scripts/PlayerControl.cs" Line="47" Column="58" />
+      <File FileName="Assets/Scripts/Fighter.cs" Line="35" Column="63" />
+      <File FileName="Assets/Scripts/NewMonoBehaviour.cs" Line="14" Column="53" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,7 +13,7 @@
           <Node name="RPG Project" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="PlayerControl.cs" selected="True" />
+                <Node name="ActionScheduler.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -23,7 +23,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="1b425678-fd07-4390-816a-346154446030" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b2eb7a5a-9ca4-45fd-b56d-dfd24e8d3dee" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

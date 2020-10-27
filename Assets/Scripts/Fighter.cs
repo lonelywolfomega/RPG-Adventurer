@@ -1,26 +1,44 @@
 ﻿using UnityEngine;
 using System.Collections;
+using RPG.Movement;
+using RPG.Core;
 
 namespace RPG.Combat
 {
 
     public class Fighter : MonoBehaviour
     {
-        // Use this for initialization
-        void Start()
-        {
 
-        }
+        [SerializeField] float weaponRange = 2f;
+        Transform target;
 
-        // Update is called once per frame
         void Update()
         {
-
+            if (target == null) return;
+            if (target != null && !GetIsInRange())
+            {
+                GetComponent<Mover>().MoveTo(target.position);
+            }
+            else
+            {
+                GetComponent<Mover>().Stop();
+            }
         }
 
-        public void Attack(CombatTarget target)
+        private bool GetIsInRange()
         {
-            print("Hayaaaa!!!!!");
+            return Vector3.Distance(transform.position, target.position) < weaponRange;
+        }
+
+        public void Attack(CombatTarget combatTarget)
+        {
+            GetComponent<ActionScheduler>().StartAction(this);
+            target = combatTarget.transform;
+        }
+
+        public void Cancel()
+        {
+            target = null;
         }
     }
 }
