@@ -1,13 +1,15 @@
 ﻿<Properties StartupConfiguration="{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CameraFollow.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/AIController.cs">
     <Files>
-      <File FileName="Assets/Scripts/Mover.cs" Line="5" Column="1" />
-      <File FileName="Assets/Scripts/CameraFollow.cs" Line="11" Column="1" />
-      <File FileName="Assets/Scripts/PlayerControl.cs" />
+      <File FileName="Assets/Scripts/Mover.cs" Line="25" Column="53" />
+      <File FileName="Assets/Scripts/CameraFollow.cs" />
+      <File FileName="Assets/Scripts/PlayerControl.cs" Line="41" Column="41" />
       <File FileName="Assets/Scripts/Fighter.cs" />
-      <File FileName="Assets/Scripts/ActionScheduler.cs" />
+      <File FileName="Assets/Scripts/ActionScheduler.cs" Line="21" Column="31" />
       <File FileName="Assets/Scripts/CombatTarget.cs" />
-      <File FileName="Assets/Scripts/Health.cs" Line="4" Column="17" />
+      <File FileName="Assets/Scripts/Health.cs" />
+      <File FileName="Assets/Scripts/NewMonoBehaviour.cs" Line="29" Column="15" />
+      <File FileName="Assets/Scripts/AIController.cs" Line="106" Column="40" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,7 +17,7 @@
           <Node name="RPG Project" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="CameraFollow.cs" selected="True" />
+                <Node name="AIController.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -25,7 +27,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="3d38455a-65bf-4b28-8ac0-2f3718f03665" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="bf131f25-166b-48a0-b400-290613b0d54d" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
